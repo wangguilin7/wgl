@@ -41,7 +41,6 @@ def cal_result(sortedlist,labels,k):
     #print(res)
     d = Counter(res)
     res = sorted(d.items(), key=lambda d: d[1], reverse=True)
-    #print('res:',res)
     return res[0][0]
 
 
